@@ -7,7 +7,7 @@ label {
     @apply block mb-2 text-sm font-medium leading-6 text-gray-900;
 }
 .form-input {
-    @apply w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-black !outline-none focus:ring-transparent dark:border-[#17263c] dark:bg-[#121e32]  placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500;
+    @apply w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-black !outline-none focus:ring-transparent placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500;
 }
 
 .has-error .form-input{
