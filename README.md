@@ -85,7 +85,6 @@ Here is the credentials for the test user:
 ```
 email: user1@yopmail.com
 password: user1
-hashedPassword: $2a$10$jCOw6kUjwIA8qM/kQy3opu0hjY8hQBhumxyV6tTXvQWYtQkt0Lsv6
 ```
 
 2. User 2
@@ -93,7 +92,6 @@ hashedPassword: $2a$10$jCOw6kUjwIA8qM/kQy3opu0hjY8hQBhumxyV6tTXvQWYtQkt0Lsv6
 ```
 email: user2@yopmail.com
 password: user2
-hashedPassword: $2a$10$AWt.zzlCyrAlHItTdvFkieiWj85MFEuThgDuOT/8A3bPFsOTzVgb.
 
 ```
 
