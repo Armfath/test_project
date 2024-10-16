@@ -17,7 +17,7 @@ Before starting, make sure you have the following installed on your machine:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Armfath/test_project.git
+git clone git@github.com:Armfath/test_project.git
 ```
 
 2. Install dependencies
