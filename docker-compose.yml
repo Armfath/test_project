@@ -1,0 +1,14 @@
+services:
+  database:
+    image: postgres
+    environment:
+      POSTGRES_USER: invoice_test
+      POSTGRES_PASSWORD: test_com
+      POSTGRES_DB: invoice_platform
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

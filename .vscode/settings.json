@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "prettier.configPath": ".prettierrc.cjs",
+    "eslint.codeActionsOnSave.mode": "problems"
+}
