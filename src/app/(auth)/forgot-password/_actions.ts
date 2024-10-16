@@ -25,7 +25,7 @@ export async function forgotPassword(prevState: ActionResult, data: FormData) {
           action: TokenAction.RESET_PASSWORD,
           token,
           userId: user.id,
-          expiresAt: new Date(Date.now() + 3600 * 1000),
+          expiresAt: new Date(Date.now() + 5 * 60 * 1000),
         },
       });
       const resetPasswordUrl = `${WEB_URL}/reset-password?token=${token}`;
@@ -39,6 +39,7 @@ export async function forgotPassword(prevState: ActionResult, data: FormData) {
       <p>Hello, <strong>${email}</strong></p>
       <p>You have requested to reset your password. Click the button below to proceed.</p>
       <a href="${resetPasswordUrl}" style="display: inline-block; padding: 12px 20px; font-size: 16px; color: white; background-color: #313b9b; text-decoration: none; border-radius: 5px; margin-top: 20px;">Reset Password</a>
+      <p style="margin-top: 20px;">For security reasons, the link will expire after 5 minutes.</p>
       <p style="margin-top: 20px;">If you did not request this, please ignore this email.</p>
     </div>
     <div style="text-align: center; font-size: 12px; color: #888; margin-top: 20px;">
