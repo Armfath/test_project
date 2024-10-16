@@ -20,7 +20,13 @@ Before starting, make sure you have the following installed on your machine:
 git clone git@github.com:Armfath/test_project.git
 ```
 
-2. Install dependencies
+2. Navigate to the project directory
+
+```bash
+cd test_project
+```
+
+3. Install dependencies
 
    ```bash
    npm install
