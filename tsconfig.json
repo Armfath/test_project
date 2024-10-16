@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -23,63 +19,25 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "public": [
-        "public/*"
-      ],
-      "assets/*": [
-        "./src/assets/*"
-      ],
-      "messages/*": [
-        "./src/messages/*"
-      ],
-      "constants/*": [
-        "./src/constants/*"
-      ],
-      "components/*": [
-        "./src/components/*"
-      ],
-      "hooks/*": [
-        "./src/hooks/*"
-      ],
-      "utils/*": [
-        "./src/utils/*"
-      ],
-      "types/*": [
-        "./src/types/*"
-      ],
-      "services/*": [
-        "./src/services/*"
-      ],
-      "context/*": [
-        "./src/context/*"
-      ],
-      "layouts/*": [
-        "./src/layouts/*"
-      ],
-      "pages/*": [
-        "./src/pages/*"
-      ],
-      "styles/*": [
-        "./src/styles/*"
-      ],
-      "data/*": [
-        "./src/data/*"
-      ],
-      "db/*": [
-        "./src/db/*"
-      ],
-      "libs/*": [
-        "./src/libs/*"
-      ],
-      "validators/*": [
-        "./src/validators/*"
-      ],
-      "actions/*": [
-        "./src/actions/*"
-      ]
+      "@/*": ["./src/*"],
+      "public": ["public/*"],
+      "assets/*": ["./src/assets/*"],
+      "messages/*": ["./src/messages/*"],
+      "constants/*": ["./src/constants/*"],
+      "components/*": ["./src/components/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "utils/*": ["./src/utils/*"],
+      "types/*": ["./src/types/*"],
+      "services/*": ["./src/services/*"],
+      "context/*": ["./src/context/*"],
+      "layouts/*": ["./src/layouts/*"],
+      "pages/*": ["./src/pages/*"],
+      "styles/*": ["./src/styles/*"],
+      "data/*": ["./src/data/*"],
+      "db/*": ["./src/db/*"],
+      "libs/*": ["./src/libs/*"],
+      "validators/*": ["./src/validators/*"],
+      "actions/*": ["./src/actions/*"]
     }
   },
   "include": [
@@ -89,7 +47,5 @@
     ".next/types/**/*.ts",
     "src/app/api/route.js"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

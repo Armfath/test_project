@@ -1,4 +1,5 @@
 # Test Project Invoice Plateform
+
 Simple app for updating forgot password
 
 ## Prerequisites
@@ -9,7 +10,7 @@ Before starting, make sure you have the following installed on your machine:
 - [npm (Node Package Manager)](https://www.npmjs.com/get-npm)
 - [Docker](https://docs.docker.com/engine/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-- Free the ports ```3000``` and ```5432``` on your machine
+- Free the ports `3000` and `5432` on your machine
 
 ## Installation
 
@@ -44,19 +45,15 @@ EMAIL_PASS=
 We are using a postgres database in local with docker:
 
 1. Start the database
+
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 Check the database is running
-```bash
-docker ps -a
-```
-
-2. Initiate Prisma Client
 
 ```bash
-npx prisma init
+sudo docker ps -a
 ```
 
 3. Run the migration
@@ -79,5 +76,25 @@ to start the app, run the following command:
 npm run dev
 ```
 
-Open [http://localhost:3000/forgot-password](http://localhost:3000/forgot-password) with your browser to see reset password page.
+## Test the app
 
+Here is the credentials for the test user:
+
+1. User 1
+
+```
+email: user1@yopmail.com
+password: user1
+hashedPassword: $2a$10$jCOw6kUjwIA8qM/kQy3opu0hjY8hQBhumxyV6tTXvQWYtQkt0Lsv6
+```
+
+2. User 2
+
+```
+email: user2@yopmail.com
+password: user2
+hashedPassword: $2a$10$AWt.zzlCyrAlHItTdvFkieiWj85MFEuThgDuOT/8A3bPFsOTzVgb.
+
+```
+
+Open [http://localhost:3000/forgot-password](http://localhost:3000/forgot-password) with your browser to see reset password page.

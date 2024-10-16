@@ -1,10 +1,10 @@
 export const seedUsers = [
   {
-    email: 'pewivyzu@yopmail.com',
-    password: 'password123',
+    email: 'user1@yopmail.com',
+    password: 'user1',
   },
   {
-    email: 'zequbaqeji@yopmail.com',
-    password: 'admin123',
+    email: 'user2@yopmail.com',
+    password: 'user2',
   },
 ];

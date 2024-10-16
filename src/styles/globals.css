@@ -4,25 +4,24 @@
 
 /* Input */
 label {
-    @apply block mb-2 text-sm font-medium leading-6 text-gray-900;
+  @apply block mb-2 text-sm font-medium leading-6 text-gray-900;
 }
 .form-input {
-    @apply w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-black !outline-none focus:ring-transparent placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500;
+  @apply w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-black !outline-none focus:ring-transparent placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500;
 }
 
-.has-error .form-input{
-    @apply border-red-500 focus:border-red-500;
+.has-error .form-input {
+  @apply border-red-500 focus:border-red-500;
 }
 
 input[disabled] {
-    @apply cursor-not-allowed opacity-60;
+  @apply cursor-not-allowed opacity-60;
 }
 
-
-    /* Buttons */
-    .btn {
-        @apply relative flex items-center justify-center rounded-md border px-5 py-2 text-sm font-semibold shadow-sm outline-none transition duration-300 hover:shadow-none w-full bg-indigo-600 text-white hover:bg-indigo-700;
-    }
-    .btn[disabled] {
-        @apply cursor-not-allowed opacity-60;
-    }
+/* Buttons */
+.btn {
+  @apply relative flex items-center justify-center rounded-md border px-5 py-2 text-sm font-semibold shadow-sm outline-none transition duration-300 hover:shadow-none w-full bg-indigo-600 text-white hover:bg-indigo-700;
+}
+.btn[disabled] {
+  @apply cursor-not-allowed opacity-60;
+}
